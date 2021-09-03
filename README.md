@@ -1,4 +1,4 @@
-# tally.aginn.tech-api
+# tally.aginn.tech-relay-bmd
 Electron Application that relays tally information from ATEM Switchers to https://tally.aginn.tech
 
 ### Related Links:
