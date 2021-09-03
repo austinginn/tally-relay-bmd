@@ -2,11 +2,35 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Hello World!</title>
+    <title>Tally Relay</title>
     <link rel="stylesheet" href="index.css">
+    <!-- Insert this line above script imports  -->
+    <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+
+    <script src="jquery.min.js"></script>
+    <script defer src="render.js"></script>
+
+    <script>if (window.module) module = window.module;</script>
   </head>
   <body>
-    <h1>💖 Hello World!</h1>
-    <p>Welcome to your Electron application.</p>
+    <div class="hide stats">
+    <p id="latency">*</p>
+    <p id="pt">*</p>
+  </div>
+    <div class="wrapper flex_box">
+      <div class="form red">
+        <h1 id="name">unknown</h1>
+        <h2 class="noselect" id="ip">0.0.0.0</h2>
+        <div class="input">
+          <input class="hide" id="ip_enter" placeholder="enter switcher ip" type="text"></input>
+        </div>
+        <div class="hide" id="qr">
+        </div>
+        <h2 class="noselect hide white_hover" id="t_id">*</h2>
+      </div>
+    </div>
+    <div class="footer">
+      <span class="noselect yellow_hover" id="debug">debug</span>
+    </div>
   </body>
 </html>
