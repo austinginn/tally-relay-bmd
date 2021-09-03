@@ -1,7 +1,7 @@
 {
   "name": "tally-relay-bmd",
   "productName": "tally-relay-bmd",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Tally realy for Blackmagic Design ATEM switchers",
   "main": "src/index.js",
   "scripts": {
