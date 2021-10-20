@@ -1,6 +1,10 @@
 # tally.aginn.tech-relay-bmd
 Electron Application that relays tally information from ATEM Switchers to https://tally.aginn.tech
 
+### Known Issues:
+- no start on windows
+
+
 ### Related Links:
 Tally Web Service: https://tally.aginn.tech  
 Tally API Documentation: https://tally.aginn.tech/api  
